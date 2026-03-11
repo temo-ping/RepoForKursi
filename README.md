@@ -44,7 +44,6 @@ curl -X POST http://localhost:8080/api/v1/optimizations \
         "name": "Parcel D",
         "volume": 8,
         "revenue": 160
-        
       }
     ]
   }'
@@ -64,12 +63,10 @@ curl -X POST http://localhost:8080/api/v1/optimizations \
       "volume": 10,
       "revenue": 200
     }
-    
   ],
   "totalVolume": 15,
   "totalRevenue": 320,
   "createdAt": "2026-03-11T12:00:00Z"
-
 }
 
 
@@ -104,6 +101,7 @@ curl http://localhost:8080/api/v1/optimizations/3f29e2f9-6a33-4e2a-97d2-7efb2dd8
 
 curl http://localhost:8080/api/v1/optimizations
 
+პასუხის მაგალითი:
 [
   {
     "requestId": "3f29e2f9-6a33-4e2a-97d2-7efb2dd8c1c4",
@@ -118,7 +116,6 @@ curl http://localhost:8080/api/v1/optimizations
         "volume": 10,
         "revenue": 200
       }
-      
     ],
     "totalVolume": 15,
     "totalRevenue": 320,
